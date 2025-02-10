@@ -14,6 +14,10 @@
 //! 6. Your system thinks it is `01:00:00`.
 //!
 //! The same applies to the date as well, as well as when calling setter methods.
+//!
+//! # Features
+//!
+//! The optional `defmt-03` feature implements [defmt::Format] on some types.
 
 #![deny(unsafe_code, missing_docs)]
 #![no_std]
